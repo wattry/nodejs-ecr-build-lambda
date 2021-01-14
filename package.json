@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-ecr-build-lambda",
+  "version": "1.0.0",
+  "description": "AWS nodejs lambda codecommit trigger to build docker images and push them to an AWS ECR repository.",
+  "main": "index.js",
+  "repository": "git@github.com:wattry/nodejs-ecr-build-lambda.git",
+  "author": "Ryan Wattrus <09wattry@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "aws-sdk": "^2.828.0",
+    "dotenv": "^8.2.0"
+  }
+}
